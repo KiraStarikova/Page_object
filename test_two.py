@@ -3,13 +3,13 @@ import time
 import pytest
 from testpage import OperationHelper
 username = "KiraZ2"
-password = "d885569a6b"
+password = "gi89mjb90f"
 
 def test_step_1(browser):
     test_page1 = OperationHelper(browser)
     test_page1.go_to_site()
     test_page1.enter_login("KiraZ2")
-    test_page1.enter_pswd("d885569a6b")
+    test_page1.enter_pswd("gi89mjb90f")
     test_page1.click_button()
     time.sleep(3)
   
